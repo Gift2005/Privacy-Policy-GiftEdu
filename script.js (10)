@@ -1,0 +1,7 @@
+// Fade-in animation for main content
+document.addEventListener("DOMContentLoaded", () => {
+  const main = document.querySelector("main");
+  setTimeout(() => {
+    main.classList.add("show");
+  }, 200);
+});
